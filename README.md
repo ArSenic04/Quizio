@@ -1,4 +1,4 @@
-**#Quizio - Quiz Game Project**
+#Quizio - Quiz Game Projec
 
 ##Overview
 
