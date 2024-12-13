@@ -6,25 +6,25 @@ This project is a web-based quiz game built with HTML, CSS, and JavaScript on th
 
 ## Features 
 
--Interactive Quiz Gameplay: Users can answer multiple-choice questions and get real-time feedback.
+- Interactive Quiz Gameplay: Users can answer multiple-choice questions and get real-time feedback.
 
--Dynamic Question Loading: Questions are fetched from the server using Django views.
+- Dynamic Question Loading: Questions are fetched from the server using Django views.
 
--Result Display: Shows the final score and a graphical representation of the user's performance.
+- Result Display: Shows the final score and a graphical representation of the user's performance.
 
--Responsive Design: Works seamlessly on different screen sizes.
+- Responsive Design: Works seamlessly on different screen sizes.
 
--Easy to Extend: Add more questions or customize the game logic easily.
+- Easy to Extend: Add more questions or customize the game logic easily.
 
 ## Key Files
 
--static/quiz/style.css: Contains all styles for the quiz.
+- static/quiz/style.css: Contains all styles for the quiz.
 
--static/quiz/script.js: Manages the quiz logic and interactivity.
+- static/quiz/script.js: Manages the quiz logic and interactivity.
 
--templates/quiz/index.html: Main HTML file for the quiz page.
+- templates/quiz/index.html: Main HTML file for the quiz page.
 
--views.py: Django view functions to render templates and serve data.
+- views.py: Django view functions to render templates and serve data.
 
 -urls.py: URL mappings for the quiz application.
 
@@ -32,11 +32,11 @@ This project is a web-based quiz game built with HTML, CSS, and JavaScript on th
 
 ### Prerequisites
 
--Python 3.x
+- Python 3.x
 
--Django 4.x
+- Django 4.x
 
--A web browser
+- A web browser
 
 # Installation Steps 
 
@@ -57,20 +57,19 @@ pip install django
 4. Configure the Database:
 
     - Run migrations to set up the default database:
-```
-python manage.py makemigrations
-python manage.py migrate
-```
-Run the Development Server:
-```
-python manage.py runserver
-```
+    ```
+    python manage.py makemigrations
+    python manage.py migrate
+    ```
+    -Run the Development Server:
+    ```
+    python manage.py runserver
+    ```
 Access the Application:
-
 Open your browser and navigate to:
-```
-http://127.0.0.1:8000
-```
+    ```
+    http://127.0.0.1:8000
+    ```
 ## Configuration
 
 ### Static Files
