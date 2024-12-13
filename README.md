@@ -1,10 +1,10 @@
-# Quizio - Quiz Game Projec
+# Quizio - Quiz Game Project
 
 ## Overview
 
 This project is a web-based quiz game built with HTML, CSS, and JavaScript on the frontend and Django on the backend. The quiz dynamically fetches questions from the server, calculates scores, and displays results interactively. The project demonstrates a fully integrated frontend and backend setup.
 
-**## Features **
+## Features 
 
 -Interactive Quiz Gameplay: Users can answer multiple-choice questions and get real-time feedback.
 
@@ -16,7 +16,7 @@ This project is a web-based quiz game built with HTML, CSS, and JavaScript on th
 
 -Easy to Extend: Add more questions or customize the game logic easily.
 
-**## Key Files **
+## Key Files
 
 -static/quiz/style.css: Contains all styles for the quiz.
 
@@ -28,7 +28,7 @@ This project is a web-based quiz game built with HTML, CSS, and JavaScript on th
 
 -urls.py: URL mappings for the quiz application.
 
-**## Setup Instructions **
+## Setup Instructions 
 
 ### Prerequisites
 
@@ -38,7 +38,7 @@ This project is a web-based quiz game built with HTML, CSS, and JavaScript on th
 
 -A web browser
 
-**# Installation Steps **
+# Installation Steps 
 
 1. Clone the Repository:
 ```
@@ -56,7 +56,7 @@ pip install django
 ```
 4. Configure the Database:
 
-Run migrations to set up the default database:
+    - Run migrations to set up the default database:
 ```
 python manage.py makemigrations
 python manage.py migrate
@@ -71,9 +71,9 @@ Open your browser and navigate to:
 ```
 http://127.0.0.1:8000
 ```
-##Configuration
+## Configuration
 
-###Static Files
+### Static Files
 
 Ensure the following settings are in your settings.py to serve static files correctly:
 ```
@@ -83,7 +83,7 @@ STATICFILES_DIRS = [
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 ```
-###Templates
+### Templates
 
 Add the path to the templates directory in your settings.py:
 ```
@@ -103,7 +103,7 @@ TEMPLATES = [
     },
 ]
 ```
-**##Usage**
+## Usage 
 
 Start the quiz by clicking the Start Quiz button on the home page.
 
